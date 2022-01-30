@@ -1,0 +1,23 @@
+{
+  "name": "js-volder",
+  "version": "1.0.0",
+  "description": "test volder npm package using javascript to apply form validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alguerocode/js-volder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alguerocode/js-volder/issues"
+  },
+  "homepage": "https://github.com/alguerocode/js-volder#readme",
+  "dependencies": {
+    "volder": "^2.0.1"
+  }
+}
