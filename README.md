@@ -1,2 +1,1 @@
-# js-volder
-test volder npm package using javascript to apply form validation
+# user login validation project powered by volder
