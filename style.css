@@ -47,5 +47,5 @@ p.error {
     font-size: .8rem;
     width:350px;
     height:5px;
-    /* display:none; */
+    color: red;
 }

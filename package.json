@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./"
+    "start": "webpack-dev-server --open --config=webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,17 @@
   },
   "homepage": "https://github.com/alguerocode/js-volder#readme",
   "dependencies": {
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
     "http-server": "^14.1.0",
-    "volder": "^2.0.1"
+    "style-loader": "^3.3.1",
+    "volder": "^2.0.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.7.3"
   }
 }
