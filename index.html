@@ -4,16 +4,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./index.js" defer></script>
+    <script type="module" src="./index.js" defer></script>
     <title>javascript and volder validation</title>
 </head>
 <body>
-    <form action="post">
+    <form>
         <h3>login</h3>
         <p>powered by <a href="https://github.com/devSupporters/volder" target="_tab">volder</a> login validation</p>
         <input type="text" name="username" id="username" placeholder="username">
+        <p class="username error"></p>
         <input type="email" name="email" id="email" placeholder="email">
+        <p class="email error"></p>
         <input type="password" name="password" id="password" placeholder="password">
+        <p class="password error"></p>
         <button type="submit">Login</button>
     </form>
 </body>

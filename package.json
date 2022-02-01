@@ -4,7 +4,8 @@
   "description": "test volder npm package using javascript to apply form validation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/alguerocode/js-volder#readme",
   "dependencies": {
+    "http-server": "^14.1.0",
     "volder": "^2.0.1"
   }
 }

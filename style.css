@@ -31,13 +31,21 @@ p {
 }
 
 input {
-  margin: 13px 0;
+  margin: 30px 0 10px 0;
   padding: 1px 5px;
+  height:25px;
 }
 
 button {
-  margin-top: 5px;
+  margin-top: 30px;
   width: fit-content;
   padding: 5px 10px;
   align-self: center;
+}
+
+p.error {
+    font-size: .8rem;
+    width:350px;
+    height:5px;
+    /* display:none; */
 }
